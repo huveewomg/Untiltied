@@ -5,10 +5,10 @@ toolbar_width = 20
 tool_width_exit = 25
 
 print('Welcome')
-print('Water is starting')
+print('Test is starting')
 
 
-# code below are progress bar for bootup screen 
+
 sys.stdout.write("[%s]" % (" " * toolbar_width))
 sys.stdout.flush()
 sys.stdout.write("\b" * (toolbar_width+1)) #
@@ -19,7 +19,7 @@ for i in range(toolbar_width):
     sys.stdout.write("-")
     sys.stdout.flush()
 
-sys.stdout.write("]\n") # this ends the progress bar
+sys.stdout.write("]\n") 
 
 print('This is a simple application to find if your plant is a good condition.')
 
@@ -93,14 +93,14 @@ elif Moisture >= minMoisture <=maxMoisture:
 #end boot
 sys.stdout.write("[%s]" % (" " * tool_width_exit)) #ending
 sys.stdout.flush()
-sys.stdout.write("\b" * (tool_width_exit+1)) # return to start of line, after '['
+sys.stdout.write("\b" * (tool_width_exit+1)) 
 
 for i in range(tool_width_exit):
-    time.sleep(0.10) # Little fast than the loading bar
+    time.sleep(0.10) 
     sys.stdout.write("-")
     sys.stdout.flush()
 
-sys.stdout.write("]\n") # this ends the progress bar    
+sys.stdout.write("]\n") 
 
 
 
