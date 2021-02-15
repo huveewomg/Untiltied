@@ -1,0 +1,20 @@
+Finding the best condition of plant at the current moment: 
+
+Measuring:
+-ambient temperature  
+-light intensity
+-soil moisture 
+-Humidity 
+
+affect 
+-photosynthesis ( light, temperature) 
+-transpiration (Humidity, Temperature,)
+
+experiment:
+-plant and measure growth in different condition. 
+-Measure average of those condition in different time.
+
+constant: 
+-similar plants
+-water
+
