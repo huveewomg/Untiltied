@@ -8,7 +8,7 @@ class App(QWidget):
  
     def __init__(self):
         super().__init__()
-        self.title = 'Green test'
+        self.title = 'Test'
         self.left = 10
         self.top = 10
         self.width = 640
